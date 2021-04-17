@@ -1,38 +1,92 @@
+/* @import '~material-design-icons/iconfont/material-icons.css'; */
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Container {
+  background-color: rgba(26, 30, 35, 0.85);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bgContainer,
+.bgContainer img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  opacity: 0.8;
+}
+
+.intro {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  /* -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%); */
+  transform: translate(0%, -50%);
+  /* padding: 0 0px; */
+}
+
+.intro-sub {
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.intro h1 {
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 16px;
+  color: #52b3d9;
+  font-family: Roboto, sans-serif;
+}
+
+.intro h1 span {
+  color: #68c3a3;
+  font-family: Roboto, sans-serif;
+}
+
+.intro-description {
+  color: #ffffff;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .intro .intro-description {
+    width: 35%;
+    margin: 0 auto;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.social-icons {
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
 }

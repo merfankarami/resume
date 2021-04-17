@@ -1,0 +1,13 @@
+.material-icons {
+  color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 0.5mm;
+  border-radius: 3px;
+  margin-bottom: 25px;
+  padding: 2px;
+}
+
+span {
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
