@@ -40,7 +40,7 @@ export default function App() {
         <Mouse />
       </div>
       <ElevateAppBar />
-      <Title />
+      <Title>About Me</Title>
     </div>
   );
 }
