@@ -2,6 +2,7 @@ import Li from "./Components/Li/Li";
 import Mouse from "./Components/MouseIcon/Mouse";
 import ElevateAppBar from "./Components/AppBar/Bar";
 import Title from "./Components/Typography/Typograhpy";
+import About from "./Components/AboutMe/About";
 import pic from "./Media/negative-space.jpg";
 
 import "./App.css";
@@ -41,6 +42,7 @@ export default function App() {
       </div>
       <ElevateAppBar />
       <Title>About Me</Title>
+      <About />
     </div>
   );
 }
