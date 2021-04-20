@@ -11,15 +11,30 @@
 }
 
 .column2 {
-    float: right;
-    width: 30%;
-    padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
-  }
+  float: right;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.Ul {
+  columns: 2;
+  column-gap: -100px;
+  list-style-type: none;
+}
+
+.Li {
+}
+
+.material-icons.md {
+  font-size: 13px;
+  color: rgb(22, 55, 43);
+  background-color: rgb(104, 195, 163);
 }

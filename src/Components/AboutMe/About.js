@@ -3,9 +3,15 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 
+import IconLabelButtons from "./Button";
+import Image from "./Image";
+
 import "./About.css";
 
+
+
 export default function FixedContainer() {
+  
   return (
     <React.Fragment>
       <CssBaseline />
@@ -38,10 +44,36 @@ export default function FixedContainer() {
                 experience when I try to craft something for my clients. Making
                 a design awesome.
               </p>
+              <ul className="Ul">
+                <li>
+                  <span className="material-icons md">done_outline</span>User
+                  Experience Design
+                </li>
+                <li>
+                  <span className="material-icons md">done_outline</span>User
+                  Experience Design
+                </li>
+                <li>
+                  <span className="material-icons md">done_outline</span>User
+                  Experience Design
+                </li>
+                <li>
+                  <span className="material-icons md">done_outline</span>User
+                  Experience Design
+                </li>
+                <li>
+                  <span className="material-icons md">done_outline</span>User
+                  Experience Design
+                </li>
+                <li>
+                  <span className="material-icons md">done_outline</span>User
+                  Experience Design
+                </li>
+              </ul>
+                <IconLabelButtons />
             </div>
             <div className="column2" style={{ backgroundColor: "#bbb" }}>
-              <h3>Column 3</h3>
-              <p>Some text..</p>
+              <Image />
             </div>
           </div>
         </Typography>
