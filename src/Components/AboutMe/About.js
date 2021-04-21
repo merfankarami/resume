@@ -15,10 +15,9 @@ export default function FixedContainer() {
       <CssBaseline />
       <Container fixed>
         <Typography
-          component="div"
-          style={{ backgroundColor: "#cfe8fc", height: "100vh" }}>
+          component="div">
           <div className="row">
-            <div className="column" style={{ backgroundColor: "#aaa" }}>
+            <div className="column">
               <h3>Objective</h3>
               <p>
                 An opportunity to work and upgrade oneself, as well as being
@@ -42,7 +41,7 @@ export default function FixedContainer() {
                 experience when I try to craft something for my clients. Making
                 a design awesome.
               </p>
-              <ul className="Ul">
+              <ul className="Ul1">
                 <li>
                   <span className="material-icons md">done_outline</span>User
                   Experience Design
@@ -70,29 +69,31 @@ export default function FixedContainer() {
               </ul>
               <IconLabelButtons />
             </div>
-            <div className="column2" style={{ backgroundColor: "#bbb" }}>
+            <div className="column2">
+            <div className="Div">
               <Image />
-              <ul>
+              <ul className="Ul2">
                 <li>
-                  <strong>نام:</strong> محمد عرفان کرمی
+                  <strong>Name:</strong> Mohammad Erfan Karami
                 </li>
                 <Seprator />
                 <li>
-                  <strong>تاریخ تولد:</strong> 1377/02/24
+                  <strong>Date of birth:</strong> 1377/02/24
                 </li>
                 <Seprator />
                 <li>
-                  <strong>آدرس:</strong> تهران - شهریار
+                  <strong>Address:</strong> Tehran - Shahriar
                 </li>
                 <Seprator />                
                 <li>
-                  <strong>تلفن:</strong> 09369240447
+                  <strong>Phone:</strong> 09369240447
                 </li>
                 <Seprator />                
-                <li>
+                <li style={{fontSize: "4mm"}}>
                   <strong>Email:</strong> mohammaderfankarami567@gmail.com
                 </li>
               </ul>
+              </div>
             </div>
           </div>
         </Typography>

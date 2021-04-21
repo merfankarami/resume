@@ -24,13 +24,24 @@
   clear: both;
 }
 
-.Ul {
+.Ul1 {
   columns: 2;
-  column-gap: -100px;
+  /* column-gap: -100px; */
   list-style-type: none;
 }
 
-.Li {
+.Ul2 {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.Div {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  margin-right: 15px;
+  margin-top: 10px;
 }
 
 .material-icons.md {
