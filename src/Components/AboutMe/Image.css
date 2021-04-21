@@ -1,20 +1,16 @@
-.img-frame {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background: url("../../Media/photo-frame.png") bottom center no-repeat;
+.Image {
+  width: 319px;
+  height: 370px;
+  margin-top: 1cm;
+  margin-left: 7px;
+  position: inherit;
+  border-radius: 5px;
 }
 
-.Image {
-    margin-top: 8cm;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
-  background-size: contain;
-  z-index: 1;
-  background: url("../../Media/erfan.jpg") bottom center no-repeat;
-  background-clip: border-box;
+.Frame {
+  margin-left: 6px;
+  margin-top: -200px;
+  padding-right: 1cm;
+  padding-bottom: 20px;
+  border-radius: 5px;
 }

@@ -7,7 +7,8 @@ import "./Image.css";
 export default function Image() {
   return (
     <div >
-      <img className="Image" src={photo} alt="erfan's pic" />
+      <img className="Image" src={erfan} alt="erfan's pic" />
+      <img className="Frame" src={photo} alt="frame's pic" />
     </div>
   );
 }

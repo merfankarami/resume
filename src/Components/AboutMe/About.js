@@ -4,14 +4,12 @@ import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 
 import IconLabelButtons from "./Button";
+import Seprator from "./SectionSeprator";
 import Image from "./Image";
 
 import "./About.css";
 
-
-
 export default function FixedContainer() {
-  
   return (
     <React.Fragment>
       <CssBaseline />
@@ -70,10 +68,31 @@ export default function FixedContainer() {
                   Experience Design
                 </li>
               </ul>
-                <IconLabelButtons />
+              <IconLabelButtons />
             </div>
             <div className="column2" style={{ backgroundColor: "#bbb" }}>
               <Image />
+              <ul>
+                <li>
+                  <strong>نام:</strong> محمد عرفان کرمی
+                </li>
+                <Seprator />
+                <li>
+                  <strong>تاریخ تولد:</strong> 1377/02/24
+                </li>
+                <Seprator />
+                <li>
+                  <strong>آدرس:</strong> تهران - شهریار
+                </li>
+                <Seprator />                
+                <li>
+                  <strong>تلفن:</strong> 09369240447
+                </li>
+                <Seprator />                
+                <li>
+                  <strong>Email:</strong> mohammaderfankarami567@gmail.com
+                </li>
+              </ul>
             </div>
           </div>
         </Typography>
