@@ -25,6 +25,7 @@
 }
 
 .Ul1 {
+  margin-top: 50px;
   columns: 2;
   /* column-gap: -100px; */
   list-style-type: none;
